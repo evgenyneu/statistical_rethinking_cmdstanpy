@@ -41,7 +41,7 @@ conda activate dopestats
 
 ### 5. Install Python libraries
 
-Install all required libraries
+Install all required libraries. The libraries will be installed inside your active `dopestats` conda environment. This way, it will not pollute your normal Python environment, which may have different versions of the same libraries:
 
 ```
 pip install -r requirements.txt
@@ -57,12 +57,12 @@ install_cmdstan
 
 ### 7. Deactivating Conda environment
 
-
-This is optional. After you finish working, you can switch back to normal Python environment:
+This is optional. After you finish working, you can switch back to your normal Python environment:
 
 ```
 conda deactivate
 ```
+
 
 ## Running the code
 
