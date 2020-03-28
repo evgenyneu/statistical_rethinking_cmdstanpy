@@ -80,6 +80,11 @@ And run the script for 2.1 example:
 python ex02.01.py
 ```
 
+## Feedback is welcome
+
+If you notice any issue, got stuck or just want to chat feel free to create an issue. I will be happy to help you.
+
+
 ## The unlicense
 
 This work is in [public domain](LICENSE).
