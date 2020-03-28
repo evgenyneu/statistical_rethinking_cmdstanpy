@@ -27,7 +27,7 @@ Install miniconda from Python 3.7 from [here](https://docs.conda.io/en/latest/mi
 
 ### 3. Create Conda environment
 
-This will install Python 3.7 sanboxed conda environment called `dopestats`.
+This will install Python 3.7 conda environment called `dopestats`.
 
 ```
 conda create -n dopestats python=3.7 -c conda-forge
@@ -51,7 +51,7 @@ pip install -r requirements.txt
 
 ### 6. Install Stan
 
-Install Stan with
+Finally, download and install Stan with this command:
 
 ```
 install_cmdstan
