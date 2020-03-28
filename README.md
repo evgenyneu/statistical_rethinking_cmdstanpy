@@ -6,7 +6,7 @@ This repository contains code examples from [Statistical Rethinking](https://xce
 
 ### 1. Download code
 
-Assuming you have GIT package manager, download code of this repository:
+Assuming you have [Git](https://git-scm.com) installed, download code of this repository:
 
 ```
 git clone https://github.com/evgenyneu/statistical_rethinking_cmdstanpy.git
