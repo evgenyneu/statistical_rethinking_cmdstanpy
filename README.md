@@ -64,7 +64,7 @@ conda deactivate
 ```
 
 
-## Running the code
+## Run the code
 
 The textbook example are located in separate Python files inside [code/chapters](code/chapters) directory. To run an example, `cd` to the relevant chapter sub-directory and run the script.
 
