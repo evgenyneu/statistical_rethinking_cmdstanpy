@@ -1,6 +1,6 @@
 # Statistical Rethinking with Python, cmdstanpy and Stan
 
-This repository contains code examples from Statistical Rethinking 2nd edition textbook done with Python and Stan languages. I ran the Stan from Python with cmdstanpy library. I will keep adding new examples as I march through the textbook.
+This repository contains code examples from Statistical Rethinking 2nd edition textbook done with Python and Stan languages. I ran the Stan from Python with cmdstanpy library. I will keep adding new examples as I march through the textbook to [code/chapters](code/chapters) directory.
 
 ## Setup
 
@@ -17,8 +17,6 @@ Change current directory:
 ```
 cd statistical_rethinking_cmdstanpy
 ```
-
-
 
 ### 2. Install miniconda
 
