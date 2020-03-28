@@ -8,6 +8,10 @@ p_grid = np.linspace(0, 1, num=20)
 # define prior
 prior = np.repeat(1, 20)
 
+# Other priors
+# prior[p_grid < 0.5] = 0
+# prior = np.exp(-5 * np.abs(p_grid - 0.5))
+
 # compute likelihood at each value in grid
 likelihood = stats.binom.pmf(k=6, n=9, p=p_grid)
 
