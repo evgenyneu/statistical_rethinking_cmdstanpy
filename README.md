@@ -6,10 +6,10 @@ This repository contains code examples from Statistical Rethinking 2nd edition t
 
 ### 1. Download code
 
-Download code of this repository:
+Assuming you have GIT package manager, download code of this repository:
 
 ```
-https://github.com/evgenyneu/statistical_rethinking_cmdstanpy.git
+git clone https://github.com/evgenyneu/statistical_rethinking_cmdstanpy.git
 ```
 
 Change current directory:
@@ -27,21 +27,40 @@ Install miniconda from Python 3.7 from [here](https://docs.conda.io/en/latest/mi
 
 ### 3. Create Conda environment
 
-This will install Python 3.7 and all required packages inside a sanboxed conda environment called `dopestats`.
+This will install Python 3.7 sanboxed conda environment called `dopestats`.
 
 ```
-conda create -n dopestats python=3.7 -c conda-forge --file requirements.txt
+conda create -n dopestats python=3.7 -c conda-forge
 ```
 
 ### 4. Activate conda environment
 
-Switch to the `dopestats`.
+Switch to the `dopestats`. You will need to do this every time you want to work with this repository code:
 
 ```
 conda activate dopestats
 ```
 
-After you finish working, you can switch back to normal Python environment:
+### 5. Install Python libraries
+
+Install all required libraries
+
+```
+pip install -r requirements.txt
+```
+
+### 6. Install Stan
+
+Install Stan with
+
+```
+install_cmdstan
+```
+
+### 7. Deactivating Conda environment
+
+
+This is optional. After you finish working, you can switch back to normal Python environment:
 
 ```
 conda deactivate
