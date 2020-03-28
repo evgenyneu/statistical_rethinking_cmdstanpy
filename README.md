@@ -71,7 +71,7 @@ The textbook example are located in separate Python files inside [code/chapters]
 For example, change to the second chapter sub-directory:
 
 ```
-cd code/chapters/02
+cd code/chapters/ch02
 ```
 
 And run the script for 2.1 example:
