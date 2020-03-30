@@ -1,4 +1,4 @@
-cmd: "PYTHONPATH=. /opt/miniconda3/bin/python -u '{FILE_ACTIVE}'"
+cmd: "cd {FILE_ACTIVE_PATH} && python -u '{FILE_ACTIVE_NAME}'"
 name: "Run Python"
 
 targets:

@@ -128,17 +128,14 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Generates analysis directory
-tarpan/**/model_info
+# Tarpan's default analysis directory
+model_info
 
 # Temporary data directory for unit tests
 temp_data
 stan_cache
 
-# Files generate by Stan
-eight_schools
-eight_schools.hpp
-eight_schools.o
 
+# Exclude compiled Stan C++ model and executable
 **/stan_model/*
 !**/stan_model/*.stan
